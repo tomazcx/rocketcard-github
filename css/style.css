@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Prompt", sans-serif;
+}
+
+body {
+    background-color: #0E1218;
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+#root {
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.phone {
+    border-top: 2rem solid black;
+    border-bottom: 2rem solid black;
+    border-left: 1rem solid black;
+    border-right: 1rem solid black;
+    height: 70vh;
+    border-radius: 4.5rem;
+    padding: 2.5rem 1rem 2.5rem 2rem;
+}
+
+button {
+    color: white;
+    background-color: #000000;
+    border: none;
+    padding: .8rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    color: gray;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    border: 1px solid white;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    padding: .3rem;
+}
+
+.rocketcard {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.logo-bottom {
+    width: 35px;
+    height: 35px;
+}
+
+.content-img {
+    display: flex;
+    justify-content: end;
+}
+
+.info {
+    height: 12rem;
+    border-radius: 4rem;
+    padding: .5rem 2rem;
+    background-image: linear-gradient(rgb(51, 51, 51), rgb(48, 48, 48, 0.2), rgb(51, 51, 51));
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    right: 56%;
+}
+
+.img-profile {
+    border: 10px solid #8257E5;
+    border-radius: 100%;
+    width: 15rem;
+    margin-bottom: 5rem;
+    margin-left: 5rem;
+}
+
+ul {
+    list-style: none;
+}
